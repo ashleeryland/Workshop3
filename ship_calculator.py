@@ -1,8 +1,8 @@
-__author__ = 'jc260183'
+_author__ = 'jc260183'
 
 def number_items():
-    items_shipped = input("Please enter the amount of items to be shipped: ")
-    while items_shipped > 0
+    items_shipped = int(input("Please enter the amount of items to be shipped: "))
+    if items_shipped < 0:
         print("invalid number of items")
     print(items_shipped)
 
