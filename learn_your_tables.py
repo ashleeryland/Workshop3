@@ -1,22 +1,17 @@
-__author__ = 'jc260183'
+___author__ = 'jc260183'
 # Learn your tables - a learning tool written in Python
 # By CP1404
 
 
 def display_menu():
-    print("""1. option 1
-2. option 2
-3. option 3
-4. exit program""")
-
-
-def num_range():
-    start = input("Please enter a number to start from:")
-    end = input("Please enter a number to end at: ")
+    print("""1. Option 1
+2. Option 2
+3. Option 3
+4. Exit Program""")
 
 
 
-#def generate_addition_table():
+# def generate_addition_table():
 #   for i in range(10):
 #       for j in range(10):
 #          print(i, "+", j, "=", i + j)
